@@ -43,6 +43,7 @@
                     <a href="#competitors" class="text-gray-700 hover:text-shell-red transition-colors">Competitors</a>
                     <a href="#strategy" class="text-gray-700 hover:text-shell-red transition-colors">Strategy</a>
                     <a href="#products" class="text-gray-700 hover:text-shell-red transition-colors">Products</a>
+                    <a href="#ad-concepts" class="text-gray-700 hover:text-shell-red transition-colors">Ad Concepts</a>
                 </div>
                 <button id="mobile-menu-btn" class="md:hidden text-gray-700">
                     <i class="fas fa-bars text-xl"></i>
@@ -57,6 +58,7 @@
                 <a href="#competitors" class="block text-gray-700 hover:text-shell-red">Competitors</a>
                 <a href="#strategy" class="block text-gray-700 hover:text-shell-red">Strategy</a>
                 <a href="#products" class="block text-gray-700 hover:text-shell-red">Products</a>
+                <a href="#ad-concepts" class="block text-gray-700 hover:text-shell-red">Ad Concepts</a>
             </div>
         </div>
     </nav>
@@ -1182,58 +1184,234 @@
         </div>
     </section>
 
-    <!-- Advertisement Concepts Gallery -->
-    <section id="ad-concepts" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Creative Advertisement Concepts
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Showcase of creative design concepts for the Shell Helix Saudi National Day 95 campaign
-                </p>
+    <!-- Interactive Advertisement Concepts Section - Futuristic Design -->
+    <section id="ad-concepts" class="py-20 relative overflow-hidden" style="background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 50%, #2d2d5f 100%);">
+        <!-- Animated background elements -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-1/4 w-32 h-32 bg-shell-yellow rounded-full animate-pulse"></div>
+            <div class="absolute bottom-0 right-1/4 w-24 h-24 bg-shell-red rounded-full animate-pulse animation-delay-1000"></div>
+            <div class="absolute top-1/2 right-1/3 w-16 h-16 bg-saudi-green rounded-full animate-pulse animation-delay-2000"></div>
+        </div>
+        
+        <!-- Geometric patterns -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)" />
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-20">
+                <!-- Futuristic title with glow effect -->
+                <div class="relative inline-block mb-8">
+                    <h2 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-shell-yellow via-white to-shell-red mb-6 tracking-wide">
+                        CREATIVE CONCEPTS
+                    </h2>
+                    <div class="absolute inset-0 text-5xl md:text-7xl font-bold text-shell-yellow opacity-20 blur-sm">
+                        CREATIVE CONCEPTS
+                    </div>
+                </div>
+                
+                <!-- Subtitle with Arabic -->
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl md:text-3xl font-arabic text-shell-yellow mb-4 font-bold">
+                        مفاهيم إعلانية مبتكرة
+                    </h3>
+                    <p class="text-xl text-gray-300 leading-relaxed">
+                        Four revolutionary advertisement concepts designed to capture the essence of Saudi National Day 95
+                        <br><span class="text-shell-yellow">Click any concept to explore its complete creative strategy</span>
+                    </p>
+                </div>
+                
+                <!-- Animated divider -->
+                <div class="flex justify-center mt-8">
+                    <div class="w-32 h-1 bg-gradient-to-r from-transparent via-shell-yellow to-transparent animate-pulse"></div>
+                </div>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Ad Concept placeholders - These would be replaced with actual ad images -->
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300" onclick="openAdModal(1)">
-                    <div class="h-64 bg-gradient-to-br from-shell-red to-red-600 flex items-center justify-center">
-                        <i class="fas fa-image text-4xl text-white"></i>
+            <!-- Enhanced Ad Concepts Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+                
+                <!-- Ad Concept 1: Bold National Symbolism -->
+                <div class="group relative bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:rotate-1 shadow-2xl hover:shadow-shell-yellow/25" onclick="openAdModal(1)">
+                    <!-- Glow effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-shell-yellow/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <!-- Image container with perfect aspect ratio -->
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/60f0208d-fbce-4e5d-9424-f769a121987c.jpg?updatedAt=1757918373485" 
+                             alt="Bold National Symbolism Ad" 
+                             class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110">
+                        
+                        <!-- Overlay gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        
+                        <!-- Floating number badge -->
+                        <div class="absolute top-4 right-4 w-10 h-10 bg-shell-yellow text-black font-bold rounded-full flex items-center justify-center text-lg">
+                            01
+                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Heritage Concept</h3>
-                        <p class="text-gray-600 text-sm">Cultural storytelling with Saudi heritage elements</p>
+                    
+                    <div class="p-6 relative z-10">
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-shell-yellow transition-colors">
+                            Bold National Symbolism
+                        </h3>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                            Large Saudi National Day banner with car in motion, creating instant cultural relevance and emotional resonance
+                        </p>
+                        
+                        <!-- Key features -->
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-shell-red/20 text-shell-red text-xs rounded-full">High Recall</span>
+                            <span class="px-3 py-1 bg-saudi-green/20 text-saudi-green text-xs rounded-full">Mass Appeal</span>
+                        </div>
+                        
+                        <!-- Click indicator -->
+                        <div class="flex items-center text-shell-yellow text-sm group-hover:translate-x-2 transition-transform duration-300">
+                            <i class="fas fa-arrow-right mr-2"></i>
+                            <span>View Full Strategy</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300" onclick="openAdModal(2)">
-                    <div class="h-64 bg-gradient-to-br from-shell-yellow to-yellow-500 flex items-center justify-center">
-                        <i class="fas fa-image text-4xl text-black"></i>
+                <!-- Ad Concept 2: Premium & Aspirational -->
+                <div class="group relative bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:rotate-1 shadow-2xl hover:shadow-shell-yellow/25" onclick="openAdModal(2)">
+                    <!-- Glow effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-shell-yellow/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <!-- Image container with perfect aspect ratio -->
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/3db79d16-eb48-49e4-9aab-e66881b38203.jpg?updatedAt=1757918369913" 
+                             alt="Premium & Aspirational Ad" 
+                             class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110">
+                        
+                        <!-- Overlay gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        
+                        <!-- Floating number badge -->
+                        <div class="absolute top-4 right-4 w-10 h-10 bg-shell-yellow text-black font-bold rounded-full flex items-center justify-center text-lg">
+                            02
+                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Premium Quality</h3>
-                        <p class="text-gray-600 text-sm">Product excellence and performance focus</p>
+                    
+                    <div class="p-6 relative z-10">
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-shell-yellow transition-colors">
+                            Premium & Aspirational
+                        </h3>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                            Elegant persona with luxury car against modern cityscape, targeting aspirational audiences and premium lifestyles
+                        </p>
+                        
+                        <!-- Key features -->
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-shell-red/20 text-shell-red text-xs rounded-full">Aspirational</span>
+                            <span class="px-3 py-1 bg-shell-yellow/20 text-shell-yellow text-xs rounded-full">Premium</span>
+                        </div>
+                        
+                        <!-- Click indicator -->
+                        <div class="flex items-center text-shell-yellow text-sm group-hover:translate-x-2 transition-transform duration-300">
+                            <i class="fas fa-arrow-right mr-2"></i>
+                            <span>View Full Strategy</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300" onclick="openAdModal(3)">
-                    <div class="h-64 bg-gradient-to-br from-saudi-green to-green-600 flex items-center justify-center">
-                        <i class="fas fa-image text-4xl text-white"></i>
+                <!-- Ad Concept 3: Family-Centric Journey -->
+                <div class="group relative bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:rotate-1 shadow-2xl hover:shadow-shell-yellow/25" onclick="openAdModal(3)">
+                    <!-- Glow effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-shell-yellow/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <!-- Image container with perfect aspect ratio -->
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/6c90d72f-cba0-42b6-b38c-bd20ddb3609a.jpg?updatedAt=1757918372950" 
+                             alt="Family-Centric Journey Ad" 
+                             class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110">
+                        
+                        <!-- Overlay gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        
+                        <!-- Floating number badge -->
+                        <div class="absolute top-4 right-4 w-10 h-10 bg-shell-yellow text-black font-bold rounded-full flex items-center justify-center text-lg">
+                            03
+                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">National Pride</h3>
-                        <p class="text-gray-600 text-sm">Celebration of Saudi achievements and progress</p>
+                    
+                    <div class="p-6 relative z-10">
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-shell-yellow transition-colors">
+                            Family-Centric Journey
+                        </h3>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                            Emphasizes togetherness, trust, and pride with desert landscape and Riyadh skyline, aligning with Saudi values
+                        </p>
+                        
+                        <!-- Key features -->
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-saudi-green/20 text-saudi-green text-xs rounded-full">Family Values</span>
+                            <span class="px-3 py-1 bg-shell-red/20 text-shell-red text-xs rounded-full">Cultural</span>
+                        </div>
+                        
+                        <!-- Click indicator -->
+                        <div class="flex items-center text-shell-yellow text-sm group-hover:translate-x-2 transition-transform duration-300">
+                            <i class="fas fa-arrow-right mr-2"></i>
+                            <span>View Full Strategy</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300" onclick="openAdModal(4)">
-                    <div class="h-64 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                        <i class="fas fa-image text-4xl text-white"></i>
+                <!-- Ad Concept 4: Premium Lifestyle -->
+                <div class="group relative bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:rotate-1 shadow-2xl hover:shadow-shell-yellow/25" onclick="openAdModal(4)">
+                    <!-- Glow effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-shell-yellow/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <!-- Image container with perfect aspect ratio -->
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/aac7c0c2-9bc1-4094-b4f0-d072e36673e5.jpg?updatedAt=1757918372578" 
+                             alt="Premium Lifestyle Ad" 
+                             class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110">
+                        
+                        <!-- Overlay gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        
+                        <!-- Floating number badge -->
+                        <div class="absolute top-4 right-4 w-10 h-10 bg-shell-yellow text-black font-bold rounded-full flex items-center justify-center text-lg">
+                            04
+                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation Focus</h3>
-                        <p class="text-gray-600 text-sm">Future-forward technology and advancement</p>
+                    
+                    <div class="p-6 relative z-10">
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-shell-yellow transition-colors">
+                            Premium Lifestyle
+                        </h3>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                            Modern Saudi identity through cityscape, luxury car, and elegant persona with cultural motifs and green neon designs
+                        </p>
+                        
+                        <!-- Key features -->
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-shell-yellow/20 text-shell-yellow text-xs rounded-full">Premium</span>
+                            <span class="px-3 py-1 bg-saudi-green/20 text-saudi-green text-xs rounded-full">Modern</span>
+                        </div>
+                        
+                        <!-- Click indicator -->
+                        <div class="flex items-center text-shell-yellow text-sm group-hover:translate-x-2 transition-transform duration-300">
+                            <i class="fas fa-arrow-right mr-2"></i>
+                            <span>View Full Strategy</span>
+                        </div>
                     </div>
+                </div>
+            </div>
+            
+            <!-- Call to action -->
+            <div class="text-center mt-16">
+                <div class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-shell-yellow to-orange-400 text-black font-bold rounded-full text-lg hover:shadow-lg hover:shadow-shell-yellow/50 transition-all duration-300 cursor-pointer group">
+                    <i class="fas fa-rocket mr-3 group-hover:animate-bounce"></i>
+                    <span>Explore All Creative Solutions</span>
+                    <i class="fas fa-chevron-right ml-3 group-hover:translate-x-1 transition-transform"></i>
                 </div>
             </div>
         </div>
@@ -1303,18 +1481,29 @@
         </div>
     </footer>
 
-    <!-- Ad Modal -->
-    <div id="ad-modal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-            <div class="p-8">
-                <div class="flex justify-between items-start mb-6">
-                    <h3 id="modal-title" class="text-2xl font-bold text-gray-900"></h3>
-                    <button onclick="closeAdModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+    <!-- Enhanced Ad Modal -->
+    <div id="ad-modal" class="fixed inset-0 modal-enhanced z-50 hidden flex items-center justify-center p-4">
+        <div class="modal-content-enhanced rounded-3xl max-w-6xl w-full max-h-[95vh] overflow-y-auto shadow-2xl border border-white/20">
+            <div class="p-8 md:p-12">
+                <div class="flex justify-between items-start mb-8">
+                    <h3 id="modal-title" class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-shell-yellow via-shell-red to-saudi-green bg-clip-text text-transparent"></h3>
+                    <button onclick="closeAdModal()" class="text-gray-400 hover:text-shell-red text-3xl transition-colors duration-300 hover:scale-110 transform">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
-                <div id="modal-content" class="space-y-4">
+                <div id="modal-content" class="space-y-6">
                     <!-- Modal content will be populated by JavaScript -->
+                </div>
+                
+                <!-- Modal footer with branding -->
+                <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+                    <p class="text-sm text-gray-500 flex items-center justify-center">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/image-removebg-preview.png?updatedAt=1757918370562" 
+                             alt="Shell Logo" class="h-6 mr-3">
+                        <span class="font-arabic text-shell-yellow font-bold">عزنا بطبعنا</span>
+                        <span class="mx-2">|</span>
+                        <span>Shell Helix Saudi National Day 95 Campaign</span>
+                    </p>
                 </div>
             </div>
         </div>
