@@ -228,170 +228,314 @@ function initializeAdModals() {
         
         const adData = {
             1: {
-                title: "Heritage Concept Advertisement",
+                title: "Bold National Symbolism",
                 content: `
+                    <div class="mb-8">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/60f0208d-fbce-4e5d-9424-f769a121987c.jpg?updatedAt=1757918373485" 
+                             alt="Bold National Symbolism Ad" 
+                             class="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl mb-8">
+                    </div>
+                    
                     <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-gradient-to-br from-red-100 to-red-200 p-8 rounded-xl">
-                            <div class="text-center">
-                                <i class="fas fa-mosque text-6xl text-red-600 mb-4"></i>
-                                <h4 class="text-xl font-bold text-red-800 mb-2">Cultural Storytelling</h4>
-                                <p class="text-red-700">Connecting Shell Helix with Saudi heritage and traditional values</p>
+                        <div class="bg-gradient-to-br from-saudi-green/10 to-shell-yellow/10 p-8 rounded-2xl border border-saudi-green/20">
+                            <h4 class="text-2xl font-bold text-saudi-green mb-6 flex items-center">
+                                <i class="fas fa-flag mr-3"></i>
+                                Our Creative Solution
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-star text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Bold National Symbolism:</span> Large Saudi National Day banner ("عزنا بطبعنا – اليوم الوطني السعودي 95") dominates the scene, creating instant cultural relevance.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-car text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">On-the-Road Context:</span> Car in motion ties the product directly to real Saudi journeys across desert landscapes.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-tag text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Offer Integration:</span> Clear, bold pricing (4L for 140 SAR Synthetic / 78 SAR Mineral) keeps focus on value.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-shield-alt text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Brand Trust:</span> Prominent Shell Helix logo + product line-up reinforce credibility.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-qrcode text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Direct Action:</span> QR code for quick access to details and bookings.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="space-y-4">
-                            <h5 class="text-lg font-bold text-gray-800">Creative Elements:</h5>
-                            <ul class="space-y-2 text-gray-600">
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                                    <span>Traditional Arabian architecture backgrounds</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                                    <span>Calligraphy integration with modern typography</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                                    <span>Heritage colors: Deep greens, gold accents</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                                    <span>Stories of generational trust and reliability</span>
-                                </li>
-                            </ul>
+                        
+                        <div class="bg-gradient-to-br from-shell-red/10 to-shell-yellow/10 p-8 rounded-2xl border border-shell-red/20">
+                            <h4 class="text-2xl font-bold text-shell-red mb-6 flex items-center">
+                                <i class="fas fa-lightbulb mr-3"></i>
+                                Why This Works
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-brain text-shell-red mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-shell-red">High Recall:</span> Patriotic visual ensures emotional resonance with Saudi drivers.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-users text-shell-red mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-shell-red">Mass Appeal:</span> Resonates with everyday commuters, families, and fleet operators alike.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-trophy text-shell-red mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-shell-red">Competitive Differentiation:</span> Competitors (Petromin, Golden Petrol, Leader Express) rarely use bold Saudi identity overlays — Shell owns the festive positioning.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-balance-scale text-shell-red mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-shell-red">Balanced Messaging:</span> National pride + Shell reliability + clear offer.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                        <p class="text-sm text-yellow-800">
-                            <i class="fas fa-lightbulb mr-2"></i>
-                            <strong>Concept:</strong> "Miles of Heritage" - Showcasing how Shell Helix has been part of Saudi Arabia's journey for decades, 
-                            protecting engines through the nation's transformation and growth.
-                        </p>
                     </div>
                 `
             },
             2: {
-                title: "Premium Quality Advertisement",
+                title: "Premium & Aspirational",
                 content: `
+                    <div class="mb-8">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/3db79d16-eb48-49e4-9aab-e66881b38203.jpg?updatedAt=1757918369913" 
+                             alt="Premium & Aspirational Ad" 
+                             class="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl mb-8">
+                    </div>
+                    
                     <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-gradient-to-br from-yellow-100 to-yellow-200 p-8 rounded-xl">
-                            <div class="text-center">
-                                <i class="fas fa-award text-6xl text-yellow-600 mb-4"></i>
-                                <h4 class="text-xl font-bold text-yellow-800 mb-2">Premium Excellence</h4>
-                                <p class="text-yellow-700">Highlighting superior Shell Helix technology and performance</p>
+                        <div class="bg-gradient-to-br from-shell-yellow/10 to-orange-100/50 p-8 rounded-2xl border border-shell-yellow/20">
+                            <h4 class="text-2xl font-bold text-shell-yellow mb-6 flex items-center">
+                                <i class="fas fa-crown mr-3"></i>
+                                Our Creative Solution
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-star text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Premium & Aspirational Visuals:</span> The ad focuses on a single, elegant persona with a luxury car against a modern cityscape. This visual storytelling targets an aspirational audience, linking Shell Helix to personal achievement and premium lifestyles.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-bullseye text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Bold Value Proposition:</span> The offer is presented with a large, immediate visual impact—"FOR EVERY 4 LITERS OF OIL" with prices "140SR Synthetic" and "78SR Mineral" prominently displayed.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-handshake text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Simplified Co-Branding:</span> The ad features both the Shell Helix and Saudi National Day logos, providing a clear brand identity without visual clutter.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-mouse-pointer text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Clear Call to Action:</span> The offer details are front and center, designed to capture attention and drive immediate interest.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="space-y-4">
-                            <h5 class="text-lg font-bold text-gray-800">Key Messages:</h5>
-                            <ul class="space-y-2 text-gray-600">
-                                <li class="flex items-start">
-                                    <i class="fas fa-star text-yellow-500 mt-1 mr-2"></i>
-                                    <span>PurePlus Technology from natural gas</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-star text-yellow-500 mt-1 mr-2"></i>
-                                    <span>Superior engine cleanliness and protection</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-star text-yellow-500 mt-1 mr-2"></i>
-                                    <span>International quality standards</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-star text-yellow-500 mt-1 mr-2"></i>
-                                    <span>Trusted by automotive manufacturers globally</span>
-                                </li>
-                            </ul>
+                        
+                        <div class="bg-gradient-to-br from-purple-100/50 to-blue-100/50 p-8 rounded-2xl border border-purple-200">
+                            <h4 class="text-2xl font-bold text-purple-600 mb-6 flex items-center">
+                                <i class="fas fa-rocket mr-3"></i>
+                                Why This Works
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-heart text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-purple-600">Targeted Emotional Connection:</span> This creative speaks directly to the individual's journey of ambition and success, a powerful theme that resonates with the National Day spirit of progress.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-gem text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-purple-600">Premium Differentiation:</span> By focusing on a high-end personal narrative, the ad stands out from competitors who often use more generic or family-oriented visuals. It positions Shell as a brand for those who seek and achieve exceptional performance.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-bolt text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-purple-600">High-Impact Messaging:</span> The large, bold text for the offer ensures the key information is absorbed in seconds, maximizing the effectiveness of the ad.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                        <p class="text-sm text-blue-800">
-                            <i class="fas fa-cog mr-2"></i>
-                            <strong>Focus:</strong> Technical excellence meets cultural celebration - demonstrating how premium 
-                            quality aligns with Saudi Arabia's pursuit of excellence in all endeavors.
-                        </p>
                     </div>
                 `
             },
             3: {
-                title: "National Pride Advertisement",
+                title: "Family-Centric Journey",
                 content: `
+                    <div class="mb-8">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/6c90d72f-cba0-42b6-b38c-bd20ddb3609a.jpg?updatedAt=1757918372950" 
+                             alt="Family-Centric Journey Ad" 
+                             class="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl mb-8">
+                    </div>
+                    
                     <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-gradient-to-br from-green-100 to-green-200 p-8 rounded-xl">
-                            <div class="text-center">
-                                <i class="fas fa-flag text-6xl text-green-600 mb-4"></i>
-                                <h4 class="text-xl font-bold text-green-800 mb-2">National Pride</h4>
-                                <p class="text-green-700">Celebrating Saudi achievements and Vision 2030 progress</p>
+                        <div class="bg-gradient-to-br from-saudi-green/10 to-emerald-100/50 p-8 rounded-2xl border border-saudi-green/20">
+                            <h4 class="text-2xl font-bold text-saudi-green mb-6 flex items-center">
+                                <i class="fas fa-family mr-3"></i>
+                                Our Creative Solution
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-heart text-saudi-green mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Family-Centric Storytelling:</span> Emphasizes togetherness, trust, and pride, aligning with Saudi values.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-mountain text-saudi-green mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Cultural Relevance:</span> Desert landscape + Riyadh skyline + National Day slogan "عزنا بطبعنا" tie Shell to Saudi heritage and modern vision.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-tag text-saudi-green mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Clear Value Proposition:</span> Offer highlighted boldly — 4L at 140 SAR (Synthetic) / 78 SAR (Mineral).
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-shield-alt text-saudi-green mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Product Trust:</span> Visible Helix packs reinforce brand credibility.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-qrcode text-saudi-green mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-saudi-green">Seamless CTA:</span> QR code for instant action & transparency.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="space-y-4">
-                            <h5 class="text-lg font-bold text-gray-800">Celebration Themes:</h5>
-                            <ul class="space-y-2 text-gray-600">
-                                <li class="flex items-start">
-                                    <i class="fas fa-rocket text-green-500 mt-1 mr-2"></i>
-                                    <span>Vision 2030 transformation and progress</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-rocket text-green-500 mt-1 mr-2"></i>
-                                    <span>National achievements in technology and innovation</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-rocket text-green-500 mt-1 mr-2"></i>
-                                    <span>Youth empowerment and future leadership</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-rocket text-green-500 mt-1 mr-2"></i>
-                                    <span>Economic diversification success stories</span>
-                                </li>
-                            </ul>
+                        
+                        <div class="bg-gradient-to-br from-blue-100/50 to-indigo-100/50 p-8 rounded-2xl border border-blue-200">
+                            <h4 class="text-2xl font-bold text-blue-600 mb-6 flex items-center">
+                                <i class="fas fa-star mr-3"></i>
+                                Why This Works
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-heart text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-blue-600">Emotional Connection:</span> Resonates with Saudi families and everyday drivers, not just premium users.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-users text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-blue-600">Inclusive Appeal:</span> Covers all segments — personal, family, and commercial drivers.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-trophy text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-blue-600">Differentiation:</span> Competitors (Petromin, Golden Petrol) focus mainly on product visuals, while Shell here tells a human story.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
-                        <p class="text-sm text-green-800">
-                            <i class="fas fa-heart mr-2"></i>
-                            <strong>Message:</strong> "عزنا بطبعنا" - Our pride is in our nature. Shell Helix powers the engines 
-                            that drive Saudi Arabia's ambitious future, supporting every mile of progress.
-                        </p>
                     </div>
                 `
             },
             4: {
-                title: "Innovation Focus Advertisement",
+                title: "Premium Lifestyle",
                 content: `
+                    <div class="mb-8">
+                        <img src="https://ik.imagekit.io/xtj3m9hth/aac7c0c2-9bc1-4094-b4f0-d072e36673e5.jpg?updatedAt=1757918372578" 
+                             alt="Premium Lifestyle Ad" 
+                             class="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl mb-8">
+                    </div>
+                    
                     <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 p-8 rounded-xl">
-                            <div class="text-center">
-                                <i class="fas fa-atom text-6xl text-gray-600 mb-4"></i>
-                                <h4 class="text-xl font-bold text-gray-800 mb-2">Future Innovation</h4>
-                                <p class="text-gray-700">Advanced technology meeting tomorrow's challenges</p>
+                        <div class="bg-gradient-to-br from-shell-yellow/10 to-green-100/50 p-8 rounded-2xl border border-shell-yellow/20">
+                            <h4 class="text-2xl font-bold text-shell-yellow mb-6 flex items-center">
+                                <i class="fas fa-gem mr-3"></i>
+                                Our Creative Solution
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-city text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Premium Lifestyle Visuals:</span> A modern Saudi identity through cityscape, luxury car, and elegant persona.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-bullseye text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Clear Value Proposition:</span> Bold display of exclusive offer – 4L for 140 SAR (Synthetic) & 78 SAR (Mineral).
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-flag text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">National Pride Integration:</span> Saudi cultural motif ("عزنا بطبعنا") and green neon designs reflect pride and unity.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-shield-check text-shell-yellow mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-orange-600">Trust & Transparency:</span> T&Cs + QR code for credibility and seamless customer access.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="space-y-4">
-                            <h5 class="text-lg font-bold text-gray-800">Innovation Highlights:</h5>
-                            <ul class="space-y-2 text-gray-600">
-                                <li class="flex items-start">
-                                    <i class="fas fa-microscope text-blue-500 mt-1 mr-2"></i>
-                                    <span>Advanced synthetic formulations</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-microscope text-blue-500 mt-1 mr-2"></i>
-                                    <span>Cutting-edge engine protection technology</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-microscope text-blue-500 mt-1 mr-2"></i>
-                                    <span>Environmental sustainability focus</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-microscope text-blue-500 mt-1 mr-2"></i>
-                                    <span>Smart mobility solutions for the future</span>
-                                </li>
-                            </ul>
+                        
+                        <div class="bg-gradient-to-br from-emerald-100/50 to-teal-100/50 p-8 rounded-2xl border border-emerald-200">
+                            <h4 class="text-2xl font-bold text-emerald-600 mb-6 flex items-center">
+                                <i class="fas fa-target mr-3"></i>
+                                Why This Works
+                            </h4>
+                            <div class="space-y-4 text-gray-700">
+                                <div class="flex items-start">
+                                    <i class="fas fa-eye text-emerald-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-emerald-600">Captures Attention:</span> Immediate focus on the offer & Shell branding.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-heart text-emerald-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-emerald-600">Builds Emotional Connection:</span> Blending Saudi pride with Shell quality.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-trophy text-emerald-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-emerald-600">Competitive Edge:</span> More premium and modern than Petromin, Golden Petrol, and Leader Express visuals.
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-rocket text-emerald-600 mt-1 mr-3 flex-shrink-0"></i>
+                                    <div>
+                                        <span class="font-semibold text-emerald-600">Drives Action:</span> Strong CTA through pricing clarity and QR link.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
-                        <p class="text-sm text-purple-800">
-                            <i class="fas fa-brain mr-2"></i>
-                            <strong>Vision:</strong> Positioning Shell Helix as the intelligent choice for Saudi Arabia's 
-                            technological advancement - where traditional values meet innovative solutions.
-                        </p>
                     </div>
                 `
             }
